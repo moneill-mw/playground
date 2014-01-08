@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System;
 
 namespace Domain.Test
 {
@@ -8,8 +9,16 @@ namespace Domain.Test
         [Test]
         public void CanCreateUser()
         {
-            var user = new User();
+            string name = "marko";
+            var user = new User(name);
             Assert.That(user, Is.Not.Null);
+            Assert.That(user.Name, Is.EqualTo(name));
+        }
+
+        [Test]
+        public void CannotCreateNullUser()
+        {
+            Assert.Throws<ArgumentNullException>(() => new User(null));
         }
     }
 }
