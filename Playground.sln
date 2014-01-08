@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{00DB03C1-CFE5-4BF3-AB59-9AA9A006C9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Test", "Domain.Test\Domain.Test.csproj", "{3871CD48-A6B8-4888-AEC8-74FF822E8349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DB03C1-CFE5-4BF3-AB59-9AA9A006C9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB03C1-CFE5-4BF3-AB59-9AA9A006C9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB03C1-CFE5-4BF3-AB59-9AA9A006C9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB03C1-CFE5-4BF3-AB59-9AA9A006C9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3871CD48-A6B8-4888-AEC8-74FF822E8349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3871CD48-A6B8-4888-AEC8-74FF822E8349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3871CD48-A6B8-4888-AEC8-74FF822E8349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3871CD48-A6B8-4888-AEC8-74FF822E8349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
