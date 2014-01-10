@@ -106,6 +106,10 @@ DocProject/Help/html
 # Click-Once directory
 publish
 
+# NuGet Packages
+packages/*
+!packages/repositories.config
+
 # Others
 [Bb]in
 [Oo]bj
