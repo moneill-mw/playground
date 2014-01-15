@@ -5,6 +5,6 @@
 
 @mytag
 Scenario: Basic Creation
-	Given a username of "marko"
+	Given a username of "evan"
 	When I create a User
-	Then the username should be "marko"
+	Then the username should be "evan"
