@@ -20,5 +20,8 @@ namespace Domain.Test
         {
             Assert.Throws<ArgumentNullException>(() => new User(null));
         }
+	public void Unused()
+	{
+	}
     }
 }
