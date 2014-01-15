@@ -24,7 +24,7 @@ namespace Domain.Specs
         [Then(@"the username should be ""(.*)""")]
         public void ThenTheUsernameShouldBe(string p0)
         {
-            Assert.That(_user.Name, Is.EqualTo(_username));
+            Assert.That(_user.Name, Is.EqualTo(p0));
         }
     }
 }
