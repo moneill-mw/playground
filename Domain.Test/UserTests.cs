@@ -9,7 +9,7 @@ namespace Domain.Test
         [Test]
         public void CanCreateUser()
         {
-            string name = "marko";
+            string name = "makro";
             var user = new User(name);
             Assert.That(user, Is.Not.Null);
             Assert.That(user.Name, Is.EqualTo(name));
