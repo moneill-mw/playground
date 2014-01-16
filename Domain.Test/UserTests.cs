@@ -9,7 +9,7 @@ namespace Domain.Test
         [Test]
         public void CanCreateUser()
         {
-            string name = "marko";
+            string name = "charles";
             var user = new User(name);
             Assert.That(user, Is.Not.Null);
             Assert.That(user.Name, Is.EqualTo(name));
@@ -20,8 +20,8 @@ namespace Domain.Test
         {
             Assert.Throws<ArgumentNullException>(() => new User(null));
         }
-	public void Unused()
-	{
-	}
+	    public void Unused()
+	    {
+	    }
     }
 }
